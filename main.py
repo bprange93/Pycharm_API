@@ -13,3 +13,4 @@ response = requests.get(url=ENDPOINT, headers=HEADERS)
 # turned response into reviews to show exactly what I am trying to display
 reviews = response.json()
 print(reviews)
+
